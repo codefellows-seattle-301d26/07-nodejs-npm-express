@@ -73,8 +73,12 @@ articleView.setTeasers = () => {
   });
 };
 
-// COMMENT: When/where is this function invoked? What event ultimately triggers its execution? Explain the sequence of code execution when this function is invoked.
-// PUT YOUR RESPONSE HERE
+// COMMENT: When/where is this function invoked? 
+//Answer: It is invoked in new.html in the last script tag on page load.
+
+//Question: What event ultimately triggers its execution? Explain the sequence of code execution when this function is invoked.
+//Answer: On page load,it shows tab content, hides the readonly button, and higlights text area for new article when the textbox is selected.
+
 articleView.initNewArticlePage = () => {
   $('.tab-content').show();
   $('#export-field').hide();
@@ -87,7 +91,7 @@ articleView.initNewArticlePage = () => {
 };
 
 // COMMENT: When is this function called? What event ultimately triggers its execution?
-// PUT YOUR RESPONSE HERE
+// This function operates like an object constructor with user input for each instance to pupulate the browser. It is triggered when anything changes in input text box.
 articleView.create = () => {
   let article;
   $('#articles').empty();

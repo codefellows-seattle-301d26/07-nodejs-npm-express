@@ -49,8 +49,10 @@ Article.prototype.insertRecord = function(callback) {
     .then(data => {
       console.log(data);
 
-      // COMMENT: What is the purpose of this line? Is the callback invoked when this method is called? Why or why not?
-      // PUT YOUR RESPONSE HERE
+      // COMMENT: What is the purpose of this line? 
+      //Answer: The call back function above is set up for a new article to populate the browser. If call back is true, return the callback aka push new article to browser
+      //Is the callback invoked when this method is called? Why or why not?
+      // Answer: Yes if it evaluates true (new article created by ueser) it calls the call back. 
       if (callback) callback();
     })
 };
