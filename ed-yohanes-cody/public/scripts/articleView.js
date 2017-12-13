@@ -116,7 +116,7 @@ articleView.create = () => {
 };
 
 // COMMENT: When is this function called? What event ultimately triggers its execution?
-// PUT YOUR RESPONSE HERE
+// When the submit button is clicked.
 articleView.submit = event => {
   event.preventDefault();
   let article = new Article({
@@ -128,8 +128,12 @@ articleView.submit = event => {
     publishedOn: $('#article-published:checked').length ? new Date() : null
   });
 
-  // COMMENT: Where is this function defined? When is this function called? What event ultimately triggers its execution?
-  // PUT YOUR RESPONSE HERE
+  // COMMENT: Where is this function defined? 
+  //Answer: It is defined in article.js callback (if) function
+  //When is this function called?
+  //Answer: when the submit button is clicked.
+  // What event ultimately triggers its execution?
+  // Answer: In the callback function when the callback is true.
   article.insertRecord();
 }
 
