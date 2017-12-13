@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/esa2/07-nodejs-npm-express#readme",
   "dependencies": {
-    "express.js": "^1.0.0"
+    "express.js": "^1.0.0",
+    "nodemon": "^1.12.6"
   }
 }
