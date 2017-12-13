@@ -1,0 +1,25 @@
+{
+  "name": "ed-yohanes-cody",
+  "version": "1.0.0",
+  "description": "Lab07",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esa2/07-nodejs-npm-express.git"
+  },
+  "author": "Yohanes, Cody, Ed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esa2/07-nodejs-npm-express/issues"
+  },
+  "homepage": "https://github.com/esa2/07-nodejs-npm-express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express.js": "^1.0.0",
+    "nodemon": "^1.12.6"
+  }
+}
